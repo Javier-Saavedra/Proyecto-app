@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --uca-blue: #002B5B;
+  --uca-white: #000000;
+  --uca-gray: #f5f5f5;
+  --uca-green: #28A745;
+  --uca-red: #DC3545;
+}
+
+/* Usamos background-color directamente con la variable para evitar @apply problems */
+body {
+  background-color: var(--uca-gray);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial;
+}
